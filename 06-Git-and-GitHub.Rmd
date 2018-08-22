@@ -292,6 +292,12 @@ git commit -m "added two files"
 ##  create mode 100644 fil2.txt
 ##  create mode 100644 file1.txt
 ```
+In case you change your mind and want to enter different commit message then type:
+
+``` 
+git commit --amend
+```
+This will open your default $EDITOR. Edit the commit message and save the commit. 
 
 Darn it, now looking at this commit summary I realize that I have a typo in one
 of the names of my files! Thankfully we can undo the most recent commit with
